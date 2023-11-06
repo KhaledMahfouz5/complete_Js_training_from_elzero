@@ -1,0 +1,75 @@
+.container {
+  align-items: center;
+}
+.form{
+  display: flex;
+  align-items: center;
+  background-color: #ddd;
+  border-radius: 5px;
+  justify-content: space-around;
+  padding: 20px ;
+  margin: 20px ;
+}
+.input{
+  width: 80%;
+  padding: 10px ;
+  margin: 0% ;
+  border-radius: 5px;
+  border: 1px solid #afadadb0;
+  background-color: #ffffffd3;
+  text-align: center;
+}
+.input:focus{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.add{
+  background-color: #f84235;
+  border-radius: 5px;
+  color: wheat;
+  padding: 10px;
+  border: none;
+  cursor:pointer;
+  margin: 0%;
+}
+.add:active{
+  background-color: hsl(4, 93%, 50%);
+}
+.del{
+  background-color: red;
+  border-radius: 5px;
+  color: wheat;
+  padding: 10px;
+  border: none;
+  cursor:pointer;
+  margin: 0%;
+}
+.del:active{
+  background-color: hsl(0, 100%, 45%);
+}
+.tasks{
+  display: block;
+  background-color: #ddd;
+  border-radius: 5px;
+  padding: 20px ;
+  margin: 20px ;
+}
+.task_contain{
+  padding: 20px ;
+  justify-content: space-evenly;
+  display: flex;
+  width:100%;
+}
+.tasktext{
+  opacity: 0.6;
+  width: 60%;
+  padding: 10px ;
+  margin: 0% ;
+  border-radius: 5px;
+  border: 1px solid #afadadb0;
+  background-color: #ffffffd3;
+  text-align: center;
+}
+.tasktext:hover{
+  opacity: 1;
+  transition: 0.5s;
+}
