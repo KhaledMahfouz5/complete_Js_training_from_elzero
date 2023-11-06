@@ -1,0 +1,33 @@
+{
+    "name": "Khaled",
+    "age": 19,
+    "birth": {
+        "year": 2004,
+        "month": "September",
+        "day": 11
+    },
+    "skills": [
+        "HTML",
+        "CSS",
+        "Js"
+    ],
+    "college": {
+        "type": "Computer And Automation Engineering",
+        "location": "Damascus",
+        "year": 2,
+        "subjects": {
+            "section_one": [
+                "EM",
+                "Vector Analysis",
+                "Java Programming",
+                "Numerical Analysis"
+            ],
+            "section_two": [
+                "Sketching",
+                "Engilsh 4"
+            ]
+        },
+        "hasFinished": false
+    },
+    "isMarried": false
+}

@@ -347,7 +347,6 @@ async function fetchData() {
 }
 fetchData();
 // Try__Catch_And_Finally_With_Fetch
-
 /*
 Congratulations ... You have Finished Js Course 
 By Elzrero Web School ;D
